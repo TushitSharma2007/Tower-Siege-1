@@ -1,12 +1,13 @@
-var upper_ground;
-var lower_ground;
-var bricks;
-var hexagon;
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 const Constraint = Matter.Constraint;
+
+var upper_ground;
+var lower_ground;
+var bricks;
+var hexagon;
 
 function setup() {
   createCanvas(800,400);
