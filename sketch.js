@@ -8,7 +8,6 @@ var upper_ground;
 var lower_ground;
 var bricks;
 var hexagon;
-var engine;
 
 function setup() {
   createCanvas(800,400);
